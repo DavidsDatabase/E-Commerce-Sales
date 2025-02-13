@@ -6,11 +6,11 @@ from salestransactions
 --we see unique transaction numbers, dates, unique product numbers and names, prices of these items, 
 --quantity bought, customer numbers and their country
 
---TransactionNo (categorical): a six-digit unique number that defines each transaction. The letter “C” in the code indicates a cancellation.
+--TransactionNo (categorical): a six-digit unique number that defines each transaction. The letter â€œCâ€ in the code indicates a cancellation.
 --Date (numeric): the date when each transaction was generated.
 --ProductNo (categorical): a five or six-digit unique character used to identify a specific product.
 --Product (categorical): product/item name.
---Price (numeric): the price of each product per unit in pound sterling (£).
+--Price (numeric): the price of each product per unit in pound sterling (Â£).
 --Quantity (numeric): the quantity of each product per transaction. Negative values related to cancelled transactions.
 --CustomerNo (categorical): a five-digit unique number that defines each customer.
 --Country (categorical): name of the country where the customer resides.
@@ -141,9 +141,8 @@ where CustomerNo is not null and sales > 0
 group by CustomerNo
 order by total_sales desc
 
-select customerno, sum(sales) as total_sales
+select customerno, country, round(sum(sales),0) as total_sales
 from salestransactions1
 where customerno is not null and sales > 0
-group by CustomerNo
-having sum(sales) > 500000
+group by CustomerNo, country
 order by total_sales desc
