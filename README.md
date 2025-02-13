@@ -61,4 +61,4 @@ This dataset did not provide profit margins or product costs. This is important 
 
 ### Complimentary Visualization
 
-https://public.tableau.com/app/profile/david.lee7724/viz/E-Commerce_Sales_17394038184680/Dashboard1
+https://public.tableau.com/app/profile/david.lee7724/viz/E-Commerce_Sales_17394108448470/Dashboard1?publish=yes
