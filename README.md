@@ -6,7 +6,7 @@ E-Commerce has become a new method in supporting business development. Businesse
 
 ### About the Data
 
-The primary dataset can be found on <(https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business)>. The provided csv file is labeled Sales Transaction v.4a.xlsx
+The primary dataset can be found on <(https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business)>. The provided excel file is labeled Sales Transaction v.4a.xlsx
 
 ### Tools Used
 
