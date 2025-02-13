@@ -35,25 +35,29 @@ EDA was performed to answer key questions, such as, but not limited to:
 
 ![image](https://github.com/user-attachments/assets/f5d321ca-9579-44b4-af40-bf929a41142e)
 
-2. Hinohara has the highest average pricing of 499$ per night, but it is only 1 listing in the Ku. A more reliable answer would be Chuo Ku being at 232$ per night. Musashimurayama Shi has the lowest average price at 24$ per night. 
-3. Shinjuku Ku has the most reviews per month being 4,343 reviews from all of it's 2,838 listings. Following that are Taito Ku and Sumida Ku being slightly under 3,000 total reviews. These top 3 Kus are very popular amongst locals/tourists as they have nearly over 3,000 reviews per month.
+2. Popcorn holder, world war 2 gliders, and paper crafts little birdies were amongst the top products being sold to consumers. These 3 products have over **500,000 pounds** in sales.  
 
-![image](https://github.com/DavidsDatabase/JapanAirbnb/assets/156726833/a072c585-80ab-481f-896e-414db6fd5a7d)
+![image](https://github.com/user-attachments/assets/ef795b42-2ec1-4e31-88bf-73464110084a)
 
-4. Shinjuku Ku has the most total reviews at 104,190 reviews. Next are Taito Ku at 74,555 reviews and Sumida Ku at 66,100 reviews. This strongly suggests that listings in these 3 Ku are very popular and people would most likely want to stay here. Having the most reviews lifetime and most reviews per month is a strong indicator for popularity. 
+3. Customer **14585** had purchased **1,111** products, followed by customer **16219** with **747** products, and customer **15492** with **730** products. Many customers amongst the list had made other orders, but these orders represents the highest amount of products purchased in 1 transaction. 
 
-![image](https://github.com/DavidsDatabase/JapanAirbnb/assets/156726833/1d485e39-bce9-49f2-a697-a60193d9c1ac)
+![image](https://github.com/user-attachments/assets/391f239e-e5b0-4e92-9975-564a6d9060bc)
+
+4. We see customer **14646** as the most profitable segment customer with **2.1million pounds** in sales alone. The following customers purchased half of customer 14646 between 800,000 and 1 million pounds in sales. 
+
+![image](https://github.com/user-attachments/assets/e48106a3-9b4d-4c64-b5dc-5893b48c290f)
 
 
 ### Recommendations
 
 Based on the analysis, we recommend the following actions:
 
-Booking an airbnb in the areas of **Shinjuku**, **Taito**, or **Sumida** may be the best choice. All 3 of these Ku are popular as they have the most reviews per month and overall. Average prices for these 3 are around mid compared to the rest of the areas Tokyo has to offer. There are over 1,800 listings for all 3 of these Ku, so options are there. Filtering your choices based on your preferred location, accommodation, beds, bathrooms even further may strengthen your decision-making, but in doing so, may change the pricing per night either upwards or downwards. 
+The business should focus primarily on supplying stock for the top 10 best performing products. These products would be sold quickly to customers without a worry. Focusing on the top 10 customers would yield the most profit as these customers had the largest sales throughout the year. 
+
 
 ### Limitations
 
-This dataset did not provide any dates/timestamps so it was hard to make comparative analyses. We would need to find data regarding **time** to make a more induced analysis for decision-making. Having this data would be useful in finding price changes from time to time in certain areas and room types, total amount of reviews per month per neighbourhood, or making monthly, quarterly, seasonal analyses. 
+This dataset did not provide profit margins or product costs. This is important in determining which products actually yielded profit or loss. This also ties to which customers have the best profit return rate. Another limitation that would greatly improve the analysis would be to categorize the products into sub-categories. This can help in determining which categories do better in terms of profit. December 2019 sales were removed from this dataset because the dataset only had 10 days worth of data which would lead to an unclear analysis. 
 
 ### Complimentary Visualization
 
